@@ -1,17 +1,17 @@
 # Árvore de Regressão para Previsão do Fator de Segurança de Taludes
 
 <!-- Badges -->
-[![DOI](https://img.shields.io/badge/DOI-repo-blue)]() <!-- REPO_DOI -->
+[![DOI](https://img.shields.io/badge/DOI-repo-blue)](https://doi.org/10.5281/zenodo.19136420) <!-- REPO_DOI -->
 [![DOI](https://img.shields.io/badge/DOI-dataset-orange)](https://doi.org/10.5281/zenodo.19133633)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]() <!-- COLAB_LINK -->
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zipluciano/slope-stability-regression-tree/blob/main/regression_tree_fos.ipynb) <!-- COLAB_LINK -->
 
 ## Descrição
 
 Trabalho de Conclusão de Curso (TCC) desenvolvido na Universidade Federal de Santa Catarina (UFSC), que utiliza **Árvore de Regressão** (`DecisionTreeRegressor`) para prever o **Fator de Segurança (FS)** de taludes homogêneos e secos.
 
-O modelo substitui métodos tradicionais de equilíbrio limite por uma abordagem baseada em aprendizado de máquina, utilizando **parâmetros adimensionais** derivados das propriedades geométricas e geotécnicas do talude.
+O modelo apresenta uma abordagem baseada em aprendizado de máquina, utilizando **parâmetros adimensionais** derivados das propriedades geométricas e geotécnicas do talude.
 
 ## Dados
 
@@ -39,7 +39,7 @@ A altura do talude é fixada em 3,5 m para o cálculo dos parâmetros adimension
 Abra o notebook diretamente no navegador, sem instalação:
 
 <!-- COLAB_LINK -->
-> Link do Colab será adicionado após publicação do repositório.
+[Link do Colab](https://colab.research.google.com/github/zipluciano/slope-stability-regression-tree/blob/main/regression_tree_fos.ipynb)
 
 ### Localmente com uv + VSCode
 
@@ -103,7 +103,6 @@ slope-stability-regression-tree/
 ├── pyproject.toml              # Dependências do projeto (uv)
 ├── .python-version             # Versão do Python (3.12.12)
 ├── .gitignore
-├── CLAUDE.md
 ├── LICENSE                     # Licença MIT
 └── README.md
 ```
