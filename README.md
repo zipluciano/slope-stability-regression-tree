@@ -92,7 +92,7 @@ O notebook gera os seguintes resultados:
 - Métricas de desempenho no conjunto de treino e teste (RMSE, MAE, R²)
 - Gráfico de dispersão: FS previsto vs. FS real
 - Análise de resíduos por faixa de FS
-- Visualização da árvore de decisão completa (exportada em SVG/PDF) — disponível no Zenodo: [10.5281/zenodo.19135011](https://doi.org/10.5281/zenodo.19135011)
+- Visualização da árvore de decisão completa (exportada em SVG/PDF) — disponível no Zenodo: [10.5281/zenodo.19226621](https://doi.org/10.5281/zenodo.19226621)
 - Importância das features
 
 ## Estrutura do Repositório
